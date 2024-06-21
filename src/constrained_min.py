@@ -1,5 +1,4 @@
-import \
-    math  # We use math rather than numpy only for the log calculations because it is more efficient for scalar operations
+import math 
 from typing import Callable
 import numpy as np
 from numpy.typing import NDArray
